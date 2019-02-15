@@ -50,7 +50,7 @@ class CredentialsFile(object):
         self._config.set(self.section, 'aws_secret_access_key', secretKey)
 
         os.umask(0o0066)
-        os.rename(self._filename, self._filename+'~')
+        os.rename(self._filename, self._filename + '~')
         with open(self._filename, 'w') as f:
             self._config.write(f)
 
@@ -130,9 +130,9 @@ def getUserName(iam):
 
 
 @retry(
-    stop_max_delay=60*1000,
+    stop_max_delay=60 * 1000,
     wait_exponential_multiplier=250,
-    wait_exponential_max=10*1000,
+    wait_exponential_max=10 * 1000,
     retry_on_exception=lambda e: isinstance(e, BotoServerError))
 def deactivateKey(iam, oldKey, userName):
     """Set the given key as inactive.
