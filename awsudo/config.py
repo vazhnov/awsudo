@@ -29,8 +29,8 @@ class CredentialResolver(object):
         set('AWS_SECRET_ACCESS_KEY', creds.secret_key)
 
         # AWS_SESSION_TOKEN is the ostensibly the standard:
-        # http://blogs.aws.amazon.com/security/post/Tx3D6U6WSFGOK2H/A-New-and-Standardized-Way-to-Manage-Credentials-in-the-AWS-SDKs
-        # http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-environment
+        # https://blogs.aws.amazon.com/security/post/Tx3D6U6WSFGOK2H/A-New-and-Standardized-Way-to-Manage-Credentials-in-the-AWS-SDKs
+        # https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-environment
         set('AWS_SESSION_TOKEN', creds.token)
 
         # ...but boto expects AWS_SECURITY_TOKEN. Set both for compatibility.

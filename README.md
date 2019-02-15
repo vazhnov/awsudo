@@ -114,10 +114,10 @@ pyenv rehash
 tox
 ```
 
-  [credentials]: http://blogs.aws.amazon.com/security/post/Tx3D6U6WSFGOK2H/A-New-and-Standardized-Way-to-Manage-Credentials-in-the-AWS-SDKs
-  [best practices]: http://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html
-  [assume a role]: http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html
-  [temporary credentials]: http://docs.aws.amazon.com/STS/latest/UsingSTS/Welcome.html
-  [account number]: http://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html
-  [requires MFA]: http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html#cli-roles-mfa
-  [AWS CLI guide]: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
+  [credentials]: https://blogs.aws.amazon.com/security/post/Tx3D6U6WSFGOK2H/A-New-and-Standardized-Way-to-Manage-Credentials-in-the-AWS-SDKs
+  [best practices]: https://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html
+  [assume a role]: https://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html
+  [temporary credentials]: https://docs.aws.amazon.com/STS/latest/UsingSTS/Welcome.html
+  [account number]: https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html
+  [requires MFA]: https://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html#cli-roles-mfa
+  [AWS CLI guide]: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html

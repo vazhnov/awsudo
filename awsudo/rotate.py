@@ -8,7 +8,7 @@ from retrying import retry
 from boto.iam.connection import IAMConnection
 from boto.exception import BotoServerError
 
-ACCESS_KEY_DOCS = 'http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html'
+ACCESS_KEY_DOCS = 'https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html'
 
 try:
     from configparser import RawConfigParser
